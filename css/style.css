@@ -1,0 +1,197 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+/* COLORES */
+body{
+  background-color: #730e2e; /*burdeo*/
+}
+
+nav{
+  background-color: #1f4e7d; /*azul*/
+}
+
+footer{
+  background-color: #1f4e7d; /*azul*/
+}
+
+i{
+  color: #1f4e7d;
+}
+
+
+ /* FONTS */
+.great{
+  font-family: 'Fredericka the Great', cursive;
+ } 
+
+ .cabin{
+  font-family: 'Cabin Sketch', cursive;
+ }
+
+ .rock{
+  font-family: 'Rock Salt', cursive;
+ }
+
+ 
+
+ /* PORTADA */
+ h1{
+  font-family: 'Rock Salt', cursive;
+  margin-top: 18%;
+  margin-left: 2%;
+  
+}
+
+.poe{
+  margin-right: 4%;
+  margin-top: -23%;
+}
+
+.dibujo{
+  margin-top: 15%;
+}
+
+img{
+
+}
+/*---------------------------------*/
+
+.foto{
+  margin-top: 5%;
+}
+
+.imagen {
+  -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
+filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* ANIMACION LOGO 
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}*/
+
+
+/*@keyframes lightSpeedIn {
+  from {
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: skewX(-5deg);
+    opacity: 1;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.lightSpeedIn {
+  animation-name: lightSpeedIn;
+  animation-timing-function: ease-out;
+}*/
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
