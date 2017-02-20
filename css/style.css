@@ -270,3 +270,26 @@ nav .brand-logo {
 footer.page-footer {
   margin: 0;
 }
+
+.caja{
+  margin-top: 3%;
+}
+.linkedin{
+  width: 19%;
+}
+
+.github-2{
+  width: 22%;
+}
+.twitter{
+  width: 20%;
+}
+
+.year{
+  color: #730e2e;
+  font-weight: bold;
+}
+---------------------------------------
+.monse-resp{
+  margin-top: 50%;
+}
