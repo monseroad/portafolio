@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Portafolio Monse</title>
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -12,150 +12,172 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-
 <!--BANNER DE PRESENTACION-->
-  <nav class="pushpin-demo-nav" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo great white-text">Monserrat Pino</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#" class="cabin white-text">Front End Developer</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav cabin">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container-fluid">
-        <br><br>
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <h1 class="left teal-text black-text animated infinite bounce lightSpeedIn pulse">Monse...</h1>
-            </div>    
-        </div>
-        <div class="row">
-          <h5 class="col s10 m12 l2 black-text right poe great hide-on-small-only">"Aquellos que sueñan de día conocen muchas cosas que escapan a los que sueñan solo de noche" (Edgar Allan Poe)</h5>
-        </div>
-        <br><br>
-
+<header class="h-fondo">
+  <div class="col s12 m12 l12"><!-- MENÚ -->
+    <div class="s12 m12 l12"><!--IMAGEN Y TEXTO (SOBRE LA IMAGEN)-->
+      <div id="index-banner" class="parallax-container">
+          <div class="section no-pad-bot portada">
+              <div class="container-fluid">
+                  <div class="row titulo">
+                      <div class="col s12 m12 l12">
+                          <h1 class="rock center hide-on-small-only hide-on-med-only imagen"><i class="material-icons">stars</i>Monserrat Pino<i class="material-icons">stars</i></h1>
+                          <h3 class="rock center hide-on-large-only burdeo"><i class="material-icons">stars</i>Monserrat Pino</h3>
+                      </div>    
+                  </div>
+                  <div class="row poe-2">
+                      <h5 class="col m12 l12 center poe rock hide-on-small-only hide-on-med-only imagen">"Aquellos que sueñan de día conocen muchas cosas que escapan a los que sueñan solo de noche" (Edgar Allan Poe)</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="parallax dibujo"><img src="dibujo.png" alt="dibujo"></div>
       </div>
-    </div>
-    <div class="parallax dibujo"><img src="dibujo.png" alt="dibujo"></div>
   </div>
-<!-- FIN BANNER DE PRESENTACION-->  
+</header>  
 
 <!--SECCION PERFIL-->
-  <div class="container">
-    <div class="section">
+<section class="portada">
+    <nav class="target" role="navigation">
+        <a href="#" class="brand-logo center rock white-text imagen hide-on-small-only hide-on-med-only"><i class="material-icons estrella">stars</i>Web Developer</a>
+        <p class="center rock white-text imagen hide-on-large-only hide-on-med-only"><i class="material-icons estrella">stars</i>Web Developer</p>
+        <i class="material-icons center estrella hide-on-large-only hide-on-small-only">stars</i>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 l4 logo foo">
+                <h3 class="hide-on-small-only rock white-text imagen bar"><i class="material-icons">stars</i>Monse...</h3>
+            </div>
+            <div class="col s12 m4 l4">
+                <img src="monse.png" alt="Monse" class="imagen responsive-img circle foto">
+            </div>
+        </div>
+            <div class="row">    
+                <div class="col s12 m12 l12 foo">
+                        <p class="parrafo hide-on-small-only center white-text great descripcion imagen offset">Amante del diseño de interfaces (UI), experiencias de usuario (UX) y marketing digital. Me encanta aprender nuevas herramientas y lenguajes de programación, buscando perfeccionarme como desarrolladora web y asi llegar a ser  una mejor versión de mi misma en lo profesional, enfocada siempre en ser un buen aporte al equipo de trabajo con el cual me este desempeñando. Me gusta leer e informarme acerca de innovación en cualquier area (tecnologia, arte, ciencia, medicina, medio ambiente, etc), me fasccina el arte en todas sus expresiones, soy aficionada a la astronomía, amo la comida en todas sus formas, amo los animales, me gusta el rock clásico, algo de brit pop, punk y grunge. En mi tiempo libre acostumbro dedicarme a la ilustración, salir en busca de buenos lugares para comer, asisitir a eventos culturales, musicales, de videojuegos, ciencia ficción, anime o tecnologia, ver alguna buena película o simplemente leer lo que sea.</p>
+                        <p class="parrafo hide-on-large-only center white-text great descripcion imagen offset">Amante del diseño de interfaces (UI), experiencias de usuario (UX) y marketing digital. Me encanta aprender nuevas herramientas y lenguajes de programación, buscando perfeccionarme como desarrolladora web y asi llegar a ser  una mejor versión de mi misma en lo profesional, enfocada siempre en ser un buen aporte al equipo de trabajo con el cual me este desempeñando.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-      
-      <div class="row">
-        <div class="col s12 m4 l4 foto">
-          <div class="icon-block">
-            <h3 class="rock white-text">Monserrat Pino S.</h3>
-            <img src="monse.png" alt="Monse" class="imagen responsive-img circle">
+<!--SECCION PROYECTOS-->
+<section class="proyectos">
+  <div class="row">
+      <div class="col s12 m12 l12">
+          <h3 href="#" class="brand-logo rock white-text imagen proyectos hide-on-small-only hide-on-med-only"><i class="material-icons estrella2">stars</i>Proyectos</h3> 
+          <p class="web center rock white-text imagen hide-on-large-only"><i class="material-icons">stars</i>Proyectos</p>
+      </div>   
+  </div>  
+    
+  <div class="row">
+      <div class="col s12 m12 l12 foo">
+          <div class="slider carrusel imagen bar">
+              <ul class="slides borde-carrusel">
+                  <li>
+                      <img src="tea-lovers.png" class="responsive-img"> <!-- random image -->
+                      <div class="caption left-align texto-foto">
+                          <a href="https://monseroad.github.io/test-prototypers/#slide1"><h5 class="white hide-on-small-only hide-on-med-only">Haz click aquí para visitar la página</h5></a>
+                          <a href="https://monseroad.github.io/test-prototypers/#slide1"><i class="large material-icons zoom hide-on-large-only">zoom_in</i></a>
+                          <p class="light grey-text text-lighten-3 click hide-on-small-only"><i class="material-icons">stars</i>HTML5</p>
+                          <p class="light grey-text text-lighten-3 click hide-on-small-only"><i class="material-icons">stars</i>BOOTSTRAP</p>
+                          <p class="light grey-text text-lighten-3 click hide-on-small-only"><i class="material-icons">stars</i>SASS</p>
+                          <p class="light grey-text text-lighten-3 click hide-on-small-only"><i class="material-icons">stars</i>JQUERY</p>
+                      </div>    
+                  </li>
+                  <li>
+
+                      <img src="bicis.png" class="responsive-img"> <!-- random image -->
+                      <div class="caption left-align">
+                          <a href="https://monseroad.github.io/bicis_locas_jquery/"><h5 class="white hide-on-small-only hide-on-med-only">Haz click aquí para visitar la página</h5></a>
+                          <a href="https://monseroad.github.io/bicis_locas_jquery/"><i class="large material-icons zoom hide-on-large-only">zoom_in</i></a>
+                          <p class="black-text click hide-on-small-only"><i class="material-icons">stars</i>HTML5</p>
+                          <p class="black-text click hide-on-small-only"><i class="material-icons">stars</i>CSS3</p>
+                          <p class="black-text click hide-on-small-only"><i class="material-icons">stars</i>JQUERY</p>
+                      </div>
+                  </li>
+                  <li>
+                      
+                      <img src="coder-girl.png" class="responsive-img"> <!-- random image -->
+                      <div class="caption left-align">
+                          <a href="https://monseroad.github.io/coder-girl/"><h5 class="white hide-on-small-only hide-on-med-only">Haz click aquí para visitar la página</h5></a>
+                          <a href="https://monseroad.github.io/bicis_locas_jquery/"><i class="large material-icons zoom hide-on-large-only">zoom_in</i></a>
+                          <p class="light grey-text text-lighten-3 click hide-on-small-only"><i class="material-icons">stars</i>HTML5</p>
+                          <p class="light grey-text text-lighten-3 click hide-on-small-only"><i class="material-icons">stars</i>BOOTSTRAP</p>
+                          <p class="light grey-text text-lighten-3 click hide-on-small-only"><i class="material-icons">stars</i>CSS3</p>
+                      </div>
+                  </li>
+              </ul>
+          </div>           
+</section>
+
+<!-- SECCIÓN DE HERRAMIENTAS -->
+<section class="h-fondo parallax-container"">
+  <div class="row">
+      <div class="col s12 m12 l12">
+          <nav>
+              <a href="#" class="brand-logo center rock white-text imagen hide-on-small-only hide-on-med-only"><i class="material-icons estrella">stars</i>herramientas</a>
+              <p class="herramientas center rock white-text imagen hide-on-large-only">Herramientas</p>
+          </nav> 
+      </div>
+  </div>    
+  <div class="row centrar">
+      <div class="col s12 m4 l4">
+          <div class="foo imagen fondo-imagen1 foo">
+              <img src="html5.png" alt="html5" class="html bar imagen" />
+              <img src="javascript.png" alt="JS" class="js bar imagen" />
+              <img src="css3.png" alt="css" class="css offset imagen" />
+          </div>    
+      </div>
+      <div class="col s12 m4 l4">
+          <div class="foo imagen fondo-imagen2 foo">        
+              <img src="jquery.png" alt="jquery" class="jquery offset imagen" />
+              <img src="sass.png" alt="sass" class="sass bar imagen" />
+              <img src="github.png" alt="github" class="github offset imagen" />
+          </div>    
+      </div>
+      <div class="col s12 m4 l4">        
+          <div class="foo imagen fondo-imagen3 foo">
+              <img src="materialize.png" alt="materialize" class="materialize bar imagen" />
+              <img src="bootstrap.png" alt="bootstrap" class="bootstrap offset imagen" />
+              <img src="wordpress.png" alt="wordpress" class="wordpress offset imagen" />
           </div>
-        </div>
-
-        <div class="col s12 m8 l">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">star</i></h2>
-            <h5 class="center great white-text">Desarrolladora Front End Developer</h5>
-
-            <p class="center white-text cabin">Front end developer amante del diseño de interfaces (UI), experiencias de usuario (UX) y marketing digital. Me encanta aprender herramientas nuevas y lenguajes buscando perfeccionarme como desarrolladora front end para llegar a ser  una mejor versión de mi misma en lo profesional y, en parte, a nivel personal con el enfoque de ser un buen aporte al equipo de trabajo con el cual este desarrollando algún proyecto. Soy una apasionada por el diseño y el arte en todas sus expresiones, amo la comida en todas sus formas y estoy siempre en busca de lugares nuevos donde deleitar mi paladar con ella, amo los animales, la música como los clásicos del rock de los años 60´s y 70´s entre otros y todo lo que se resuma en una pieza musical de calidad. En ocasiones acostumbro dedicarme a la ilustración, ver cine o leer un buen libro.</p>
-          </div>
-        </div>
       </div>
-
-    </div>
   </div>
- <!--FIN SECCION PERFIL -->
-
-
-<!--PENDIENTE
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>-->
+  <div class="parallax"><img src="fondo4.png" alt="dibujo-2"></div>
+</section>
 
 <!--FOOTER-->
-  <footer class="">
+<footer class="">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Company Bio</h5>
+                <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+            </div>
+            <div class="col l6 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" href="#!">Link 2</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+        <div class="container">
+            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
     </div>
-  </footer>
+</footer>
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.9/jquery.smoove.min.js"></script>
   <script src="js/init.js"></script>
 
   </body>

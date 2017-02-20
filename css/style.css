@@ -20,65 +20,214 @@ footer{
   background-color: #1f4e7d; /*azul*/
 }
 
-i{
+.estrella{
+  color: #730e2e;
+}
+
+.estrella2{
   color: #1f4e7d;
 }
 
 
- /* FONTS */
+ /* -----FONTS----- */
 .great{
   font-family: 'Fredericka the Great', cursive;
  } 
 
  .cabin{
   font-family: 'Cabin Sketch', cursive;
+  font-weight: bold;
  }
 
  .rock{
   font-family: 'Rock Salt', cursive;
  }
 
- 
-
  /* PORTADA */
  h1{
-  font-family: 'Rock Salt', cursive;
-  margin-top: 18%;
+  margin-top: 20%;
   margin-left: 2%;
+  color: #730e2e;
+  font-weight: bold;
   
 }
 
+.burdeo{
+  color: #730e2e;
+  margin-bottom: -20%;
+}
+
+.web{
+  margin-left: -26%;
+}
+
+.titulo{
+  margin-top: -10%;
+}
+
 .poe{
-  margin-right: 4%;
-  margin-top: -23%;
+  color: #730e2e;
+  font-weight: bold;
+}
+
+.poe-2{
+  margin-left: 3%;
 }
 
 .dibujo{
   margin-top: 15%;
 }
 
-img{
-
+.portada{
+    height: 578px;
 }
-/*---------------------------------*/
+
+/* SECCIÓN PERFIL */
+.descripcion{
+  /*margin-top: 5%;*/
+  font-size: 115%;
+}
+
+.galeria-proyectos{
+  margin-right: 10%;
+}
+.proyectos{
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+.parrafo {
+  line-height: 2rem;
+  font-size: 120%;
+}
+
+.logo{
+  margin-top: 20%;
+}
 
 .foto{
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .imagen {
-  -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
+  -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,10));
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,10));
 }
 
+/*----------------------------------*/
+
+/*GALERIA DE FOTOS*/
+.carrusel{
+  margin-left: -12%;
+}
+
+.borde-carrusel{
+  border: border: 8px solid #1f4e7d;
+}
+
+.click{
+  font-weight: bold;
+  width: 30%;
+}
+
+.white{
+  background-color: #fff;
+  font-weight: bold;
+  width: 30%;
+  padding: 3%;
+}
+
+.zoom{
+  color: #000;
+}
+
+.texto-foto{
+  margin-top: -3%;
+}
+
+/* ----- SECCIÓN HERRAMIENTAS ----- */
+.h-fondo{
+  background-color: rgba(240, 231, 174, 0.61);
+  }
+
+
+.h-abajo{
+  padding-bottom: 2%;
+}
+
+.fondo-imagen1{
+  background-color: #F0E7AE;
+  border-radius: 100%;
+  padding: 22%;
+  border: 8px solid #1f4e7d;
+  margin-bottom: 5%;
+  
+}
+
+.fondo-imagen2{
+  background-color: #F0E7AE;
+  border-radius: 100%;
+  padding: 15%;
+  border: 8px solid #1f4e7d;
+  margin-bottom: 5%;
+  
+}
+
+.fondo-imagen3{
+  background-color: #F0E7AE;
+  border-radius: 100%;
+  padding: 15%;
+  border: 8px solid #1f4e7d;
+  margin-bottom: 5%;
+  
+}
+
+.html{
+  width: 32%;
+}
+.css{
+  width: 25%;
+}
+.js{
+  width: 32%;
+}
+.jquery{
+  width: 60%;
+  margin-top: -20%;
+  margin-left: 13%;
+}
+.sass{
+  width: 50%;
+  margin-top: -5%;
+}
+.bootstrap{
+  width: 31%;
+}
+.materialize{
+  width: 43%;
+  margin-left: 10%;
+  margin-top: -10%;
+}
+.wordpress{
+  width: 45%;
+  margin-left: 15%;
+}
+.github{
+  width: 45%;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
 
-p {
-  line-height: 2rem;
-}
+
 
 .button-collapse {
   color: #26a69a;
@@ -121,77 +270,3 @@ p {
 footer.page-footer {
   margin: 0;
 }
-
-/* ANIMACION LOGO 
-@keyframes bounce {
-  from, 20%, 53%, 80%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    transform: translate3d(0,0,0);
-  }
-
-  40%, 43% {
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -30px, 0);
-  }
-
-  70% {
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -15px, 0);
-  }
-
-  90% {
-    transform: translate3d(0,-4px,0);
-  }
-}
-
-.bounce {
-  animation-name: bounce;
-  transform-origin: center bottom;
-}*/
-
-
-/*@keyframes lightSpeedIn {
-  from {
-    transform: translate3d(100%, 0, 0) skewX(-30deg);
-    opacity: 0;
-  }
-
-  60% {
-    transform: skewX(20deg);
-    opacity: 1;
-  }
-
-  80% {
-    transform: skewX(-5deg);
-    opacity: 1;
-  }
-
-  to {
-    transform: none;
-    opacity: 1;
-  }
-}
-
-.lightSpeedIn {
-  animation-name: lightSpeedIn;
-  animation-timing-function: ease-out;
-}*/
-
-@keyframes pulse {
-  from {
-    transform: scale3d(1, 1, 1);
-  }
-
-  50% {
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  to {
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-.pulse {
-  animation-name: pulse;
-}
-
