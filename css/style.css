@@ -88,20 +88,9 @@ footer{
   font-size: 115%;
 }
 
-.galeria-proyectos{
-  margin-right: 10%;
-}
 .proyectos{
   margin-top: 2%;
-  margin-left: 7%;
-}
-
-.img-proyectos{
-  border-radius: 250px;
-}
-
-.proyectos-titulo{
-  margin-top: 7%;
+  margin-left: 20%;
 }
 
 .parrafo {
