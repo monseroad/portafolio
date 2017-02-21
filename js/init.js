@@ -8,12 +8,6 @@
   });
 })(jQuery); // end of jQuery name space
 
-//GALERIA DE IMAGENES (SECCION "PROYECTOS")
- $(document).ready(function(){
-      $('.slider').slider({
-        full_width: true
-      });
-});
        
 //IMAGENES (SECCIÓN HERRAMIENTAS)
 $(".foo, .bar").smoove({

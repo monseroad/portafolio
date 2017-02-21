@@ -62,7 +62,7 @@ footer{
 }
 
 .titulo{
-  margin-top: -10%;
+  margin-top: -12%;
 }
 
 .poe{
@@ -92,8 +92,16 @@ footer{
   margin-right: 10%;
 }
 .proyectos{
-  margin-top: 3%;
-  margin-left: 20%;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+
+.img-proyectos{
+  border-radius: 250px;
+}
+
+.proyectos-titulo{
+  margin-top: 7%;
 }
 
 .parrafo {
@@ -147,7 +155,7 @@ footer{
 
 /* ----- SECCIÓN HERRAMIENTAS ----- */
 .h-fondo{
-  background-color: rgba(240, 231, 174, 0.61);
+  background-color: rgba(174, 176, 240, 0.55);
   }
 
 
@@ -292,4 +300,11 @@ footer.page-footer {
 ---------------------------------------
 .monse-resp{
   margin-top: 50%;
+  font-weight: bold;
 }
+
+.borde-portada{
+  border-style: solid black;
+}
+-----------------------------------------
+
